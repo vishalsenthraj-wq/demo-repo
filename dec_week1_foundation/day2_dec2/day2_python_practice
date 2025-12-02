@@ -1,0 +1,48 @@
+
+# Creating simple lists
+numbers = [1, 2, 3, 4, 5]
+fruits = ["apple", "banana", "orange"]
+
+print(numbers)
+print(fruits)
+
+
+# Accessing items by index
+print(numbers[0])   # First element
+print(fruits[-1])   # Last element
+
+
+numbers.append(6)        # Add element
+numbers.insert(2, 99)    # Insert at index
+numbers.remove(3)        # Remove value
+numbers.pop()            # Remove last item
+
+print(numbers)
+
+
+# Loop and print each element
+for fruit in fruits:
+    print(f"Fruit: {fruit}")
+
+numbers = [5, 10, 15, 20]
+total = 0
+
+for n in numbers:
+    total += n
+
+print("Sum:", total)
+
+
+nums = [12, 5, 9, 44, 2]
+
+max_value = nums[0]
+min_value = nums[0]
+
+for n in nums:
+    if n > max_value:
+        max_value = n
+    if n < min_value:
+        min_value = n
+
+print("Max:", max_value)
+print("Min:", min_value)
