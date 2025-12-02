@@ -47,4 +47,4 @@ for n in nums:
 print("Max:", max_value)
 print("Min:", min_value)
 
-print("The maximum and the minimum values have been found.")
+
